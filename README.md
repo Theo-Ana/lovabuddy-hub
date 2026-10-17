@@ -1,14 +1,92 @@
-# Welcome to your Lovable project
+# Lovabuddy Hub
+
+Βήμα 1ο: Ο "Κινητήρας" του B2B (Τα απαραίτητα Plugins)
+
+Δεν θα χρησιμοποιήσετε το WooCommerce ως απλό e-shop. Θα το μετατρέψουμε σε B2B Κατάλογο.
+
+Λειτουργία Καταλόγου (Catalog Mode): Θα χρειαστείτε ένα plugin (π.χ. YITH WooCommerce Catalog Mode). Αυτό θα "κρύψει" όλες τις τιμές από τους απλούς επισκέπτες και θα εξαφανίσει το καλάθι αγορών.
+
+Ζήτηση Προσφοράς (Request a Quote): Το plugin YITH WooCommerce Request a Quote ή το B2BKing (το οποίο είναι all-in-one λύση). Αυτό θα μετατρέψει το κουμπί "Αγορά" σε "Προσθήκη στη Ζήτηση".
+
+Η Φόρμα του Δήμου/Εργολάβου: Στη σελίδα ολοκλήρωσης (Checkout), το plugin θα ζητάει: Επωνυμία, ΑΦΜ, Τηλέφωνο, Τίτλο/Κωδικό Έργου και θα έχει οπωσδήποτε ένα πεδίο "Επισύναψη Αρχείου (PDF/Excel)" για να ανεβάζουν τις μελέτες τους.
+
+Βήμα 2ο: Η Δομή των Κατηγοριών (Taxonomy)
+
+Όπως συμφωνήσαμε, το μενού θα είναι καθαρό και λιτό:
+
+Δομικά & Στεγανωτικά
+
+Στεγανωτικά & Μονωτικά
+
+Επισκευαστικά & Ειδικά Κονιάματα
+
+Χρώματα & Οδική Σήμανση
+
+Οδοφωτισμός & Φωτισμός Εξωτερικών Χώρων
+
+Φωτιστικά Οδικού Δικτύου (LED)
+
+Αστικός & Αρχιτεκτονικός Φωτισμός
+
+Ιστοί & Βραχίονες Στήριξης
+
+Μέσα Ατομικής Προστασίας (Μ.Α.Π.)
+
+Προστασία Κεφαλής, Προσώπου & Ακοής
+
+Ένδυση & Υπόδηση Ασφαλείας
+
+Γάντια Εργασίας
+
+Εξοπλισμός Εργοταξίου & Οδική Ασφάλεια
+
+Βήμα 3ο: Η Σελίδα του Προϊόντος (Product Page)
+
+Εδώ κρίνεται το παιχνίδι για τα δημόσια έργα. Η σελίδα του κάθε προϊόντος πρέπει να εμπνέει απόλυτη τεχνική αξιοπιστία.
+
+Τίτλος: Καθαρός (π.χ. Φωτιστικό Δρόμου LED 100W IP66 - χωρίς απαραίτητα να τονίζετε τη μάρκα).
+
+Σύντομη Περιγραφή: Bullet points με τα βασικά χαρακτηριστικά.
+
+Το Κουμπί: Ένα μεγάλο, ευδιάκριτο κουμπί «Προσθήκη στη Ζήτηση».
+
+Τα Τεχνικά Φυλλάδια (Τα "Όπλα" σας): Θα εγκαταστήσετε το δωρεάν plugin Advanced Custom Fields (ACF). Με αυτό, θα προσθέσετε σε κάθε προϊόν δύο κουμπιά: "Κατέβασμα Τεχνικού Φυλλαδίου (TDS)" και "Κατέβασμα Πιστοποίησης (CE)". Οι μηχανικοί θα τα λατρέψουν.
+
+Βήμα 4ο: Φίλτρα Αναζήτησης (Facets)
+
+Επειδή οι κατηγορίες είναι γενικές, τα φίλτρα στο πλάι θα κάνουν τη δουλειά. Με ένα plugin όπως το FacetWP ή το WOOF Products Filter:
+
+Στον Οδοφωτισμό, ο χρήστης θα φιλτράρει βάσει: Ισχύος (Watt), Θερμοκρασίας Χρώματος (Kelvin) και Στεγανότητας (IP).
+
+Στα ΜΑΠ, βάσει: Μεγέθους, Προτύπου (π.χ. EN 20345) και Χρώματος.
+
+Βήμα 5ο: Το Σωστό Θέμα (Theme) & Η Ταχύτητα
+
+Μην επιλέξετε ένα βαρύ θέμα με πολλά γραφικά. Θέλετε ένα εργαλείο δουλειάς.
+
+Προτεινόμενα Themes: Το WoodMart (έχει εξαιρετικά έτοιμα layouts για B2B και εργαλεία), το Flatsome, ή το Astra (τρομακτικά γρήγορο).
+
+Ταχύτητα & Φιλοξενία (Hosting): Επειδή το WooCommerce απαιτεί πόρους, μην πάρετε το πιο φθηνό πακέτο φιλοξενίας των 3€/μήνα. Επενδύστε σε ένα καλό Managed WordPress Hosting (π.χ. SiteGround, Kinsta, ή έναν καλό ελληνικό server) με κόστος 10-20€/μήνα. Αν το site σέρνεται, οι εργολάβοι θα φεύγουν.
+
+Το δικό σας "Σχέδιο Δράσης" (Τι να κάνετε τώρα)
+
+Για να μην πελαγώσετε, οργανώστε τη δουλειά σας στα εξής στάδια:
+
+Στάδιο Προετοιμασίας (Το Excel): Πριν καν στηθεί το site, ανοίξτε ένα Excel. Στήστε στήλες: Όνομα Προϊόντος, Κατηγορία, Περιγραφή, Φωτογραφία, Link Τεχνικού Φυλλαδίου. Συλλέξτε τα πρώτα 50 βασικά προϊόντα (τα "best sellers" σας από τους 3 τομείς). Αυτό είναι το πιο χρονοβόρο κομμάτι, αλλά θα κάνει το στήσιμο παιχνιδάκι.
+
+Κατοχύρωση Domain & Hosting: Κλείστε το όνομα του site σας (αν δεν το έχετε ήδη) και αγοράστε τον χώρο φιλοξενίας.
+
+Εγκατάσταση & Στήσιμο: Αν έχετε βασικές γνώσεις, μπορείτε να εγκαταστήσετε το WordPress/WooCommerce, το Theme και τα Plugins που αναφέραμε. Διαφορετικά, μπορείτε να δώσετε αυτόν ακριβώς τον "Οδικό Χάρτη" σε έναν Freelancer/Web Developer και να του πείτε: "Θέλω ακριβώς αυτό το B2B setup, χωρίς τιμές, με φόρμα προσφοράς".
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/eb8c9382-3b7a-54b9-a893-1239be7b4b15).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +98,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
