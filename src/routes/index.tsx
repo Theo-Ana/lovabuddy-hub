@@ -61,7 +61,7 @@ function Index() {
             ))}
           </div>
           {current?.facets.map((f) => {
-            const vals = [...new Set(products.filter((p) => p.cat === current.id).map((p) => p.attrs[f]).filter((v) => v && v !== "—"))];
+            const vals = [...new Set(products.filter((p) => p.cat === current.id).map((p) => p.attrs[f]).filter((v): v is string => !!v && v !== "—"))];
             return (
               <div key={f}>
                 <h3 className="font-mono text-xs text-muted-foreground mb-2">{f.toUpperCase()}</h3>
