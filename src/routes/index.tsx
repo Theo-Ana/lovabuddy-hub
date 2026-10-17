@@ -25,7 +25,7 @@ function Index() {
 
   const list = useMemo(() => products.filter((p) =>
     (!cat || p.cat === cat) && (!sub || p.sub === sub) &&
-    Object.entries(filters).every(([k, v]) => v.length === 0 || v.includes(p.attrs[k]))), [cat, sub, filters]);
+    Object.entries(filters).every(([k, v]) => v.length === 0 || v.includes(p.attrs[k] ?? ""))), [cat, sub, filters]);
 
   const toggle = (k: string, v: string) => setFilters((f) => {
     const cur = f[k] ?? [];
